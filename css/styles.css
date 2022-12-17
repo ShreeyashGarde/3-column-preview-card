@@ -1,0 +1,110 @@
+
+.Sedans{
+  background-color: hsl(31, 77%, 52%);
+  color:#fff;
+  align-self: center;
+  height: 400px;
+  width: 250px;
+  position:absolute;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+.Suv{
+  background-color: hsl(184, 100%, 22%);
+  color:#fff;
+  align-self: center;
+  height: 400px;
+  width: 250px;
+  position: absolute;
+  margin-left: 270px;
+  font-size: 15px;
+  padding-left: 10px;
+  border-radius: 20px;
+  }
+.Luxury{
+  background-color: hsl(179, 100%, 13%);
+  color:#fff;
+  align-self: center;
+  height: 400px;
+  width: 260px;
+  position: relative;
+  font-size: 15px;
+margin-left: 530px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+@media(max-width:1028px) {
+.Sedans{
+position: relative;
+  width: 270px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+}
+.Suv{
+  position: absolute;
+margin-left: 0px;
+  width: 275px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Luxury{
+  position: absolute;
+margin-top: 400px;
+  width: 280px;
+  padding-left: 10px;
+  padding-right: 10px;
+margin-left: 0px;
+}
+body{
+  height:100vh;
+  display: grid;
+  place-items: center
+}
+
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+}
+p{
+
+  text-align: center;
+}
+
+.image{
+  padding-top: 30px;
+  padding-left: 90px;
+}
+
+.btn {
+
+  margin-top: 60px;
+  margin-left: 80px;
+	background-color:transparent;
+	border-radius:20px;
+	border:1px solid #fff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:16px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7a2a1d;
+}
+.btn:hover {
+	background-color:transparent;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+body{
+  height:100vh;
+  display: grid;
+  place-items: center
+}
